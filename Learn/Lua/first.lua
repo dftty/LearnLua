@@ -23,15 +23,6 @@ print(arg[0])
 print(___)
 print(fact(a) ~= 0)
 
--- 多行注释 两个连续字符串--加上两个方括号
---[[
-print(10)
-
---]]
-
-
--- lua语言中有8中基本类型 nil boolean number string userdata function thread table
-
 for i = -10, 10 do
     print(i, i % 3)
 end
