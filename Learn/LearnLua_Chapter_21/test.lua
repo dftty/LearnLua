@@ -1,6 +1,9 @@
-local Account = require("account")
+local Stack = require("21_3")
 
-local a = Account:new({})
+local s = Stack:new({})
+local s1 = Stack:new()
 
-a:deposit(100)
-print(a.balance)
+s:push(10)
+s1:push(20)
+print(s:top())
+print(s1:top())
